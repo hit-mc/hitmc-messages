@@ -6,10 +6,10 @@ here = pathlib.Path(__file__).parent.resolve()
 
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 
-github_address = 'https://github.com/hit-mc/psmb-client'
+github_address = 'https://github.com/hit-mc/hitmc-messages'
 
 setup(
-    name='psmb-client',
+    name='hitmc-messages',
     version='0.0.1',
     description='Messages for hitmc',
     long_description=long_description,
